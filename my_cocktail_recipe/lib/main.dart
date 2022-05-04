@@ -1,7 +1,7 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
-import 'package:mycocktailrecipe/screens/home.dart';
+import 'package:mycocktailrecipe/screens/cocktail_list.dart';
 
 void main() {
   runApp(MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData.light(),
       darkTheme: ThemeData.dark(),
       debugShowCheckedModeBanner: false,
-      home: Home(),
+      home: CocktailList(strDrink: '',),
     );
   }
 }
